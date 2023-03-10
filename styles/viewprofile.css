@@ -19,12 +19,14 @@ a{
 .container{
     display: grid;
     height: 100vh;
-    grid-template-columns: .6fr 3fr ;
-    grid-template-rows: 0.3fr 3.5fr 0.3fr;
+    grid-template-columns: .6fr 2fr ;
+    grid-template-rows: .4fr 2.5fr .4fr;
     grid-template-areas: 
     "nav nav"
     "sidebar main"
-    "footer footer";
+    "footer footer"
+    ;
+
     grid-gap:0.3rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -64,7 +66,7 @@ i{
 .side-container{
     height: 80vh;
     display: flex;
-    align-items:flex-end;
+    align-items:flex-start;
     justify-content:space-around;
     flex-direction: column;
 }
