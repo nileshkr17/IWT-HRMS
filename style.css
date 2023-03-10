@@ -39,13 +39,13 @@ a{
   grid-template-columns: 1fr 0.6fr;
 }
 .description{
-
   padding-top: 30px;
   margin-left: 30px;
   text-align: left;
 }
 .description li{
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 .photo{
   height: 150px;
@@ -77,6 +77,7 @@ nav {
   }
   .header{
     text-align: center;
+    margin-top: 10px;
   }
 
   #dis1 , #dis2, #dis3{
