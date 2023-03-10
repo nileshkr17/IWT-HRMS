@@ -7,7 +7,9 @@
 }
 
 body{
-    background-color: #9fd3ff;
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/1071047018/vector/login-form-user-interface-vector.jpg?s=612x612&w=0&k=20&c=111C1SLafMRbYr-K_FdU31uk_ybUc8QleVxGaRP2I8Y=);
+    background-color: #9fd3ff   ;
     font-family: Arimo;
 }
 
@@ -31,6 +33,7 @@ body{
     padding-right: 0px;
     padding-bottom: 0px;
     margin-right: 0px;
+    padding: 10px;
 }
 form{
     float: right;
@@ -94,10 +97,14 @@ input[type=text],input[type=password]{
     }
     
 .container{
-    background-color: white;
+    background-color: #76b5c5;
     width: 95%;
     height: 90vh;
     border-radius: 10px;
     justify-items: center;
     margin: 30px 0px 0px 30px;
+}
+
+input[type=submit]:hover{
+    background-color: green;
 }
