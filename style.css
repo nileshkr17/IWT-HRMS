@@ -161,14 +161,14 @@ i{
     
   }
   
-  a {
+  /* a {
     text-align: center;
     display: block;
     font-family: inherit;
     text-decoration: none;
     font-weight: bold;
     margin: 1rem;
-  }
+  } */
 
 @media screen and (max-width:550px){
     .container{
