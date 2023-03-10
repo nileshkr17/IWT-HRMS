@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Students </title>
+    <link rel="stylesheet" href="../styles/regis.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+             <img id="left-img" src="../src/5173532.jpg">
+        </div>
+        <form  action="../index.html"  onsubmit="return regiValidator();" style="background-color: whitesmoke;">
+
+            <label id="heading">
+              Sign In
+            </label>
+            <hr>
+            <label style="color: green;" id="success"></label><br>
+            <label style="color: red;" id="error"></label><br>
+            <br>
+            <label>
+                ID<input type="text" id="id" style="  margin-left:90px;" name="id">
+            </label>
+            <br>
+            <label>
+                Password<input type="password" id="pass" style="  margin-left: 30px;" name="branch">
+            </label>
+           <br>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="footer">
+            <p>© Copyright 2023, All Rights Reserved  |  <a href="https://github.com/nileshkr17">Nileshkr17</a></p>
+        </div>
+    </div>
+    <script src="../js/register.js"></script>
+</body>
+</html>
